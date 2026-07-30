@@ -1,6 +1,11 @@
 [build]
   publish = "."
   command = ""
+  ignore = "exit 0"
+
+[build.environment]
+  NPM_FLAGS = "--ignore-scripts"
+  NODE_VERSION = "20"
 
 [[headers]]
   for = "/*"

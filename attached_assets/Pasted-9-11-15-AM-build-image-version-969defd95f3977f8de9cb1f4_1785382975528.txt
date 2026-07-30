@@ -1,0 +1,34 @@
+9:11:15 AM: build-image version: 969defd95f3977f8de9cb1f48802a7e6f3d8c0b3 (noble-new-builds)
+9:11:15 AM: buildbot version: c4d615b5000db6a0e8c786be8584929afc70c85f
+9:11:16 AM: Fetching cached dependencies
+9:11:16 AM: Starting to download cache of 6.3MB (Last modified: 2026-07-29 04:37:29 +0000 UTC)
+9:11:16 AM: Downloaded cache in 94ms
+9:11:16 AM: Extracted cache in 27ms
+9:11:16 AM: Fetched cache in 150ms
+9:11:16 AM: Starting to prepare the repo for build
+9:11:16 AM: Preparing Git Reference refs/heads/main
+9:11:17 AM: Installing dependencies
+9:11:17 AM: mise ~/.config/mise/config.toml tools: python@3.14.3
+9:11:17 AM: mise ~/.config/mise/config.toml tools: ruby@3.4.8
+9:11:17 AM: mise ~/.config/mise/config.toml tools: go@1.26.2
+9:11:18 AM: Downloading and installing node v24.18.1...
+9:11:18 AM: Downloading https://nodejs.org/dist/v24.18.1/node-v24.18.1-linux-x64.tar.xz...
+9:11:18 AM: Computing checksum with sha256sum
+9:11:18 AM: Checksums matched!
+9:11:21 AM: Now using node v24.18.1 (npm v11.16.0)
+9:11:21 AM: Enabling Node.js Corepack
+9:11:21 AM: No npm workspaces detected
+9:11:21 AM: Installing npm packages using npm version 11.16.0
+9:12:32 AM: Failed during stage 'Install dependencies': dependency_installation script returned non-zero exit code: 1
+9:12:32 AM: npm error code ENOTFOUND
+9:12:32 AM: npm error syscall getaddrinfo
+9:12:32 AM: npm error errno ENOTFOUND
+9:12:32 AM: npm error network request to http://package-firewall.replit.local/npm/widest-line/-/widest-line-4.0.1.tgz failed, reason: getaddrinfo ENOTFOUND package-firewall.replit.local
+9:12:32 AM: npm error network This is a problem related to network connectivity.
+9:12:32 AM: npm error network In most cases you are behind a proxy or have bad network settings.
+9:12:32 AM: npm error network
+9:12:32 AM: npm error network If you are behind a proxy, please make sure that the 'proxy' config is set properly.  See: 'npm help config'
+9:12:32 AM: npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2026-07-30T03_41_21_604Z-debug-0.log
+9:12:32 AM: Error during npm install
+9:12:32 AM: Failing build: Failed to install dependencies
+9:12:32 AM: Finished processing build request in 1m16.84s
