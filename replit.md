@@ -1,27 +1,23 @@
-# Sacred Temple Hero
+# Sacred Temple Invite
 
-A pre-built static React app featuring a sacred temple / Ganpati-themed hero experience with mandala artwork, Devanagari typography, and animated UI components.
+A Hindu temple-themed digital invitation web app. Built with React + Vite (pre-built static site).
+
+## How to Run
+
+The app is served as a static site using `serve`:
+
+```
+node_modules/.bin/serve . -l 5000
+```
+
+This is configured as the "Start application" workflow. Just press **Run** to start it.
 
 ## Stack
 
-- Pre-compiled React (Vite build output — no source code present)
-- Framer Motion animations
-- Google Fonts: Noto Serif Devanagari, Yatra One, Asar, Poppins
+- Pre-built static site (React + Vite output)
+- No build step needed — all assets are in `/assets/`
+- Served via the `serve` npm package
 
-## Running
+## User Preferences
 
-Served via Python's built-in HTTP server:
-
-```
-python3 -m http.server 5000
-```
-
-The workflow **"Start application"** handles this automatically.
-
-## Notes
-
-- This is a compiled build — there is no `src/` directory or `package.json`. All assets live in `assets/`.
-- The original zip export from Vercel was incomplete; the missing JS chunks and images were fetched from `sacredtemple.vercel.app` and are now all present locally.
-- To make code changes, the original source project would need to be imported.
-
-## User preferences
+<!-- Add preferences here as needed -->
